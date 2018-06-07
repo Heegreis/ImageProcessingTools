@@ -31,8 +31,6 @@ namespace ImageProcessingTools.Presenter
                 _imageView.SourceBitmap = (Bitmap)System.Drawing.Image.FromFile(openFileDialog.FileName);
                 //bitmap = (Bitmap)Image.FromFile(openFileDialog.FileName);
             }
-            
-            
         }
         public void Grayscale()
         {
