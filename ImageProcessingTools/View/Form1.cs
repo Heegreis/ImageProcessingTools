@@ -35,8 +35,6 @@ namespace ImageProcessingTools
                 SourceBitmap = value;
                 source_pictureBox.Image = SourceBitmap;
             }*/
-
-            
         }
         public Bitmap ResultBitmap
         {
@@ -66,9 +64,16 @@ namespace ImageProcessingTools
             
         }
 
-        private void grayscale_button_Click(object sender, EventArgs e)
+        private void Grayscale_button_Click(object sender, EventArgs e)
         {
             _imagePresenter.Grayscale();
         }
+
+        private void SaveFile_button_Click(object sender, EventArgs e)
+        {
+            _fileDialogPresenter.SaveImageFile();
+        }
+
+        
     }
 }
