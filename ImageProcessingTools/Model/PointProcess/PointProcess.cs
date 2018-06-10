@@ -41,5 +41,28 @@ namespace ImageProcessingTools.Model.PointProcess
             _ResultImage = new Image();
             _ResultImage.SetRgbData(newRGBData);
         }
+
+        protected void Process(int[,] table)
+        {
+            int Width = _SourceImage.GetBitmap().Width;
+            int Height = _SourceImage.GetBitmap().Height;
+
+            int[,,] rgbData = _SourceImage.GetRgbData();
+
+            int[,,] newRGBData = new int[Width, Height, 3];
+            for (int y = 0; y < Height; y++)
+            {
+                for (int x = 0; x < Width; x++)
+                {
+                    for (int i = 0; i < 3; i++)
+                    {
+                        newRGBData[x, y, i] = table[rgbData[x, y, i], i];
+                    }
+                }
+            }
+
+            _ResultImage = new Image();
+            _ResultImage.SetRgbData(newRGBData);
+        }
     }
 }

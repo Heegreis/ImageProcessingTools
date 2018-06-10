@@ -51,6 +51,7 @@
     <Compile Include="Model\Grayscale.cs" />
     <Compile Include="Model\Image.cs" />
     <Compile Include="Model\IUserRepository.cs" />
+    <Compile Include="Model\PointProcess\HistogramEqualization.cs" />
     <Compile Include="Model\PointProcess\LogTransform.cs" />
     <Compile Include="Model\PointProcess\Negative.cs" />
     <Compile Include="Model\PointProcess\PointProcess.cs" />

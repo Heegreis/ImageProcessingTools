@@ -117,5 +117,10 @@ namespace ImageProcessingTools
         {
             _imagePresenter.Thresholding(int.Parse(Thresholding_threshold_textBox.Text.ToString()));
         }
+
+        private void HistogramEqualization_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.HistogramEqualization();
+        }
     }
 }

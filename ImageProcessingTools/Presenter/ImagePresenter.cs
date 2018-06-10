@@ -51,5 +51,9 @@ namespace ImageProcessingTools.Presenter
         {
             _imageView.ResultBitmap = new Thresholding(_imageView.SourceBitmap, t).GetBitmap();
         }
+        public void HistogramEqualization()
+        {
+            _imageView.ResultBitmap = new HistogramEqualization(_imageView.SourceBitmap).GetBitmap();
+        }
     }
 }
