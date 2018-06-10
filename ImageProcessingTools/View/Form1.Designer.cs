@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Openfile_button = new System.Windows.Forms.Button();
             this.Grayscale_button = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -73,6 +73,11 @@
             this.logTitle_label = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.HistogramEqualization_button = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.Thresholding_button = new System.Windows.Forms.Button();
+            this.Thresholding_threshold_textBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -85,11 +90,16 @@
             this.LogTransform_c_textBox = new System.Windows.Forms.TextBox();
             this.Negative_button = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Thresholding_threshold_textBox = new System.Windows.Forms.TextBox();
-            this.Thresholding_button = new System.Windows.Forms.Button();
-            this.HistogramEqualization_button = new System.Windows.Forms.Button();
+            this.Sobel_button = new System.Windows.Forms.Button();
+            this.MedianFilter_button = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.Dilation_button = new System.Windows.Forms.Button();
+            this.Erosion_button = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.KMeans_button = new System.Windows.Forms.Button();
+            this.KMeans_k_textBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.toolBar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.main_splitContainer)).BeginInit();
             this.main_splitContainer.Panel1.SuspendLayout();
@@ -119,9 +129,13 @@
             this.logTitle_panel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Openfile_button
@@ -155,7 +169,7 @@
             this.toolBar_panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.toolBar_panel.Location = new System.Drawing.Point(0, 0);
             this.toolBar_panel.Name = "toolBar_panel";
-            this.toolBar_panel.Size = new System.Drawing.Size(1027, 30);
+            this.toolBar_panel.Size = new System.Drawing.Size(1034, 30);
             this.toolBar_panel.TabIndex = 5;
             // 
             // SaveFile_button
@@ -183,8 +197,8 @@
             // main_splitContainer.Panel2
             // 
             this.main_splitContainer.Panel2.Controls.Add(this.tabControl1);
-            this.main_splitContainer.Size = new System.Drawing.Size(1027, 492);
-            this.main_splitContainer.SplitterDistance = 713;
+            this.main_splitContainer.Size = new System.Drawing.Size(1034, 492);
+            this.main_splitContainer.SplitterDistance = 704;
             this.main_splitContainer.TabIndex = 6;
             // 
             // content_splitContainer
@@ -204,7 +218,7 @@
             this.content_splitContainer.Panel2.Controls.Add(this.logMessage_panel);
             this.content_splitContainer.Panel2.Controls.Add(this.logTitle_panel);
             this.content_splitContainer.Panel2.Padding = new System.Windows.Forms.Padding(5);
-            this.content_splitContainer.Size = new System.Drawing.Size(710, 492);
+            this.content_splitContainer.Size = new System.Drawing.Size(701, 492);
             this.content_splitContainer.SplitterDistance = 376;
             this.content_splitContainer.TabIndex = 4;
             // 
@@ -223,7 +237,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.histogram_tableLayoutPanel);
-            this.splitContainer1.Size = new System.Drawing.Size(710, 376);
+            this.splitContainer1.Size = new System.Drawing.Size(701, 376);
             this.splitContainer1.SplitterDistance = 254;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -241,7 +255,7 @@
             this.image_tableLayoutPanel.RowCount = 1;
             this.image_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.image_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 251F));
-            this.image_tableLayoutPanel.Size = new System.Drawing.Size(708, 252);
+            this.image_tableLayoutPanel.Size = new System.Drawing.Size(699, 252);
             this.image_tableLayoutPanel.TabIndex = 0;
             // 
             // source_pictureBox
@@ -249,7 +263,7 @@
             this.source_pictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.source_pictureBox.Location = new System.Drawing.Point(4, 4);
             this.source_pictureBox.Name = "source_pictureBox";
-            this.source_pictureBox.Size = new System.Drawing.Size(346, 244);
+            this.source_pictureBox.Size = new System.Drawing.Size(342, 244);
             this.source_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.source_pictureBox.TabIndex = 4;
             this.source_pictureBox.TabStop = false;
@@ -257,9 +271,9 @@
             // result_pictureBox
             // 
             this.result_pictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.result_pictureBox.Location = new System.Drawing.Point(357, 4);
+            this.result_pictureBox.Location = new System.Drawing.Point(353, 4);
             this.result_pictureBox.Name = "result_pictureBox";
-            this.result_pictureBox.Size = new System.Drawing.Size(347, 244);
+            this.result_pictureBox.Size = new System.Drawing.Size(342, 244);
             this.result_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.result_pictureBox.TabIndex = 5;
             this.result_pictureBox.TabStop = false;
@@ -280,7 +294,7 @@
             this.histogram_tableLayoutPanel.Name = "histogram_tableLayoutPanel";
             this.histogram_tableLayoutPanel.RowCount = 1;
             this.histogram_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.histogram_tableLayoutPanel.Size = new System.Drawing.Size(708, 116);
+            this.histogram_tableLayoutPanel.Size = new System.Drawing.Size(699, 116);
             this.histogram_tableLayoutPanel.TabIndex = 0;
             // 
             // histogram_source_tableLayoutPanel
@@ -297,63 +311,63 @@
             this.histogram_source_tableLayoutPanel.Name = "histogram_source_tableLayoutPanel";
             this.histogram_source_tableLayoutPanel.RowCount = 1;
             this.histogram_source_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.histogram_source_tableLayoutPanel.Size = new System.Drawing.Size(348, 110);
+            this.histogram_source_tableLayoutPanel.Size = new System.Drawing.Size(343, 110);
             this.histogram_source_tableLayoutPanel.TabIndex = 0;
             // 
             // source_R_chart
             // 
-            chartArea7.Name = "ChartArea1";
-            this.source_R_chart.ChartAreas.Add(chartArea7);
+            chartArea1.Name = "ChartArea1";
+            this.source_R_chart.ChartAreas.Add(chartArea1);
             this.source_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend7.Enabled = false;
-            legend7.Name = "Legend1";
-            this.source_R_chart.Legends.Add(legend7);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.source_R_chart.Legends.Add(legend1);
             this.source_R_chart.Location = new System.Drawing.Point(3, 3);
             this.source_R_chart.Name = "source_R_chart";
-            series7.ChartArea = "ChartArea1";
-            series7.Color = System.Drawing.Color.Red;
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.source_R_chart.Series.Add(series7);
-            this.source_R_chart.Size = new System.Drawing.Size(110, 104);
+            series1.ChartArea = "ChartArea1";
+            series1.Color = System.Drawing.Color.Red;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.source_R_chart.Series.Add(series1);
+            this.source_R_chart.Size = new System.Drawing.Size(108, 104);
             this.source_R_chart.TabIndex = 0;
             this.source_R_chart.Text = "Source_R_chart";
             // 
             // source_G_chart
             // 
-            chartArea8.Name = "ChartArea1";
-            this.source_G_chart.ChartAreas.Add(chartArea8);
+            chartArea2.Name = "ChartArea1";
+            this.source_G_chart.ChartAreas.Add(chartArea2);
             this.source_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend8.Enabled = false;
-            legend8.Name = "Legend1";
-            this.source_G_chart.Legends.Add(legend8);
-            this.source_G_chart.Location = new System.Drawing.Point(119, 3);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.source_G_chart.Legends.Add(legend2);
+            this.source_G_chart.Location = new System.Drawing.Point(117, 3);
             this.source_G_chart.Name = "source_G_chart";
-            series8.ChartArea = "ChartArea1";
-            series8.Color = System.Drawing.Color.Green;
-            series8.Legend = "Legend1";
-            series8.Name = "Series1";
-            this.source_G_chart.Series.Add(series8);
-            this.source_G_chart.Size = new System.Drawing.Size(110, 104);
+            series2.ChartArea = "ChartArea1";
+            series2.Color = System.Drawing.Color.Green;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.source_G_chart.Series.Add(series2);
+            this.source_G_chart.Size = new System.Drawing.Size(108, 104);
             this.source_G_chart.TabIndex = 1;
             this.source_G_chart.Text = "chart2";
             // 
             // source_B_chart
             // 
-            chartArea9.Name = "ChartArea1";
-            this.source_B_chart.ChartAreas.Add(chartArea9);
+            chartArea3.Name = "ChartArea1";
+            this.source_B_chart.ChartAreas.Add(chartArea3);
             this.source_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend9.Enabled = false;
-            legend9.Name = "Legend1";
-            this.source_B_chart.Legends.Add(legend9);
-            this.source_B_chart.Location = new System.Drawing.Point(235, 3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.source_B_chart.Legends.Add(legend3);
+            this.source_B_chart.Location = new System.Drawing.Point(231, 3);
             this.source_B_chart.Name = "source_B_chart";
-            series9.ChartArea = "ChartArea1";
-            series9.Color = System.Drawing.Color.Blue;
-            series9.Legend = "Legend1";
-            series9.Name = "Series1";
-            this.source_B_chart.Series.Add(series9);
-            this.source_B_chart.Size = new System.Drawing.Size(110, 104);
+            series3.ChartArea = "ChartArea1";
+            series3.Color = System.Drawing.Color.Blue;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.source_B_chart.Series.Add(series3);
+            this.source_B_chart.Size = new System.Drawing.Size(109, 104);
             this.source_B_chart.TabIndex = 2;
             this.source_B_chart.Text = "chart1";
             // 
@@ -367,66 +381,66 @@
             this.histogram_result_tableLayoutPanel.Controls.Add(this.result_G_chart, 1, 0);
             this.histogram_result_tableLayoutPanel.Controls.Add(this.result_B_chart, 2, 0);
             this.histogram_result_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.histogram_result_tableLayoutPanel.Location = new System.Drawing.Point(357, 3);
+            this.histogram_result_tableLayoutPanel.Location = new System.Drawing.Point(352, 3);
             this.histogram_result_tableLayoutPanel.Name = "histogram_result_tableLayoutPanel";
             this.histogram_result_tableLayoutPanel.RowCount = 1;
             this.histogram_result_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.histogram_result_tableLayoutPanel.Size = new System.Drawing.Size(348, 110);
+            this.histogram_result_tableLayoutPanel.Size = new System.Drawing.Size(344, 110);
             this.histogram_result_tableLayoutPanel.TabIndex = 1;
             // 
             // result_R_chart
             // 
-            chartArea10.Name = "ChartArea1";
-            this.result_R_chart.ChartAreas.Add(chartArea10);
+            chartArea4.Name = "ChartArea1";
+            this.result_R_chart.ChartAreas.Add(chartArea4);
             this.result_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend10.Enabled = false;
-            legend10.Name = "Legend1";
-            this.result_R_chart.Legends.Add(legend10);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.result_R_chart.Legends.Add(legend4);
             this.result_R_chart.Location = new System.Drawing.Point(3, 3);
             this.result_R_chart.Name = "result_R_chart";
-            series10.ChartArea = "ChartArea1";
-            series10.Color = System.Drawing.Color.Red;
-            series10.Legend = "Legend1";
-            series10.Name = "Series1";
-            this.result_R_chart.Series.Add(series10);
-            this.result_R_chart.Size = new System.Drawing.Size(110, 104);
+            series4.ChartArea = "ChartArea1";
+            series4.Color = System.Drawing.Color.Red;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.result_R_chart.Series.Add(series4);
+            this.result_R_chart.Size = new System.Drawing.Size(108, 104);
             this.result_R_chart.TabIndex = 0;
             this.result_R_chart.Text = "chart1";
             // 
             // result_G_chart
             // 
-            chartArea11.Name = "ChartArea1";
-            this.result_G_chart.ChartAreas.Add(chartArea11);
+            chartArea5.Name = "ChartArea1";
+            this.result_G_chart.ChartAreas.Add(chartArea5);
             this.result_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend11.Enabled = false;
-            legend11.Name = "Legend1";
-            this.result_G_chart.Legends.Add(legend11);
-            this.result_G_chart.Location = new System.Drawing.Point(119, 3);
+            legend5.Enabled = false;
+            legend5.Name = "Legend1";
+            this.result_G_chart.Legends.Add(legend5);
+            this.result_G_chart.Location = new System.Drawing.Point(117, 3);
             this.result_G_chart.Name = "result_G_chart";
-            series11.ChartArea = "ChartArea1";
-            series11.Color = System.Drawing.Color.Green;
-            series11.Legend = "Legend1";
-            series11.Name = "Series1";
-            this.result_G_chart.Series.Add(series11);
-            this.result_G_chart.Size = new System.Drawing.Size(110, 104);
+            series5.ChartArea = "ChartArea1";
+            series5.Color = System.Drawing.Color.Green;
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.result_G_chart.Series.Add(series5);
+            this.result_G_chart.Size = new System.Drawing.Size(108, 104);
             this.result_G_chart.TabIndex = 1;
             this.result_G_chart.Text = "chart1";
             // 
             // result_B_chart
             // 
-            chartArea12.Name = "ChartArea1";
-            this.result_B_chart.ChartAreas.Add(chartArea12);
+            chartArea6.Name = "ChartArea1";
+            this.result_B_chart.ChartAreas.Add(chartArea6);
             this.result_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend12.Enabled = false;
-            legend12.Name = "Legend1";
-            this.result_B_chart.Legends.Add(legend12);
-            this.result_B_chart.Location = new System.Drawing.Point(235, 3);
+            legend6.Enabled = false;
+            legend6.Name = "Legend1";
+            this.result_B_chart.Legends.Add(legend6);
+            this.result_B_chart.Location = new System.Drawing.Point(231, 3);
             this.result_B_chart.Name = "result_B_chart";
-            series12.ChartArea = "ChartArea1";
-            series12.Color = System.Drawing.Color.Blue;
-            series12.Legend = "Legend1";
-            series12.Name = "Series1";
-            this.result_B_chart.Series.Add(series12);
+            series6.ChartArea = "ChartArea1";
+            series6.Color = System.Drawing.Color.Blue;
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.result_B_chart.Series.Add(series6);
             this.result_B_chart.Size = new System.Drawing.Size(110, 104);
             this.result_B_chart.TabIndex = 2;
             this.result_B_chart.Text = "result_B_chart";
@@ -438,7 +452,7 @@
             this.logMessage_panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.logMessage_panel.Location = new System.Drawing.Point(5, 35);
             this.logMessage_panel.Name = "logMessage_panel";
-            this.logMessage_panel.Size = new System.Drawing.Size(698, 70);
+            this.logMessage_panel.Size = new System.Drawing.Size(689, 70);
             this.logMessage_panel.TabIndex = 1;
             // 
             // log_label
@@ -455,7 +469,7 @@
             this.logTitle_panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.logTitle_panel.Location = new System.Drawing.Point(5, 5);
             this.logTitle_panel.Name = "logTitle_panel";
-            this.logTitle_panel.Size = new System.Drawing.Size(698, 30);
+            this.logTitle_panel.Size = new System.Drawing.Size(689, 30);
             this.logTitle_panel.TabIndex = 0;
             // 
             // logTitle_label
@@ -472,11 +486,13 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(308, 490);
+            this.tabControl1.Size = new System.Drawing.Size(324, 490);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -490,10 +506,60 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(300, 464);
+            this.tabPage1.Size = new System.Drawing.Size(316, 464);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Point Processing";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // HistogramEqualization_button
+            // 
+            this.HistogramEqualization_button.AutoSize = true;
+            this.HistogramEqualization_button.Location = new System.Drawing.Point(7, 366);
+            this.HistogramEqualization_button.Name = "HistogramEqualization_button";
+            this.HistogramEqualization_button.Size = new System.Drawing.Size(124, 23);
+            this.HistogramEqualization_button.TabIndex = 11;
+            this.HistogramEqualization_button.Text = "Histogram Equalization";
+            this.HistogramEqualization_button.UseVisualStyleBackColor = true;
+            this.HistogramEqualization_button.Click += new System.EventHandler(this.HistogramEqualization_button_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.Thresholding_button);
+            this.groupBox3.Controls.Add(this.Thresholding_threshold_textBox);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Location = new System.Drawing.Point(7, 259);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 100);
+            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Thresholding";
+            // 
+            // Thresholding_button
+            // 
+            this.Thresholding_button.Location = new System.Drawing.Point(8, 64);
+            this.Thresholding_button.Name = "Thresholding_button";
+            this.Thresholding_button.Size = new System.Drawing.Size(75, 23);
+            this.Thresholding_button.TabIndex = 2;
+            this.Thresholding_button.Text = "Thresholding";
+            this.Thresholding_button.UseVisualStyleBackColor = true;
+            this.Thresholding_button.Click += new System.EventHandler(this.Thresholding_button_Click);
+            // 
+            // Thresholding_threshold_textBox
+            // 
+            this.Thresholding_threshold_textBox.Location = new System.Drawing.Point(94, 21);
+            this.Thresholding_threshold_textBox.Name = "Thresholding_threshold_textBox";
+            this.Thresholding_threshold_textBox.Size = new System.Drawing.Size(100, 22);
+            this.Thresholding_threshold_textBox.TabIndex = 1;
+            this.Thresholding_threshold_textBox.Text = "100";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 12);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "threshold(閥值):";
             // 
             // groupBox2
             // 
@@ -605,69 +671,121 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.Sobel_button);
+            this.tabPage2.Controls.Add(this.MedianFilter_button);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(300, 464);
+            this.tabPage2.Size = new System.Drawing.Size(316, 464);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "spatial filtering ";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // Sobel_button
             // 
-            this.groupBox3.Controls.Add(this.Thresholding_button);
-            this.groupBox3.Controls.Add(this.Thresholding_threshold_textBox);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Location = new System.Drawing.Point(7, 259);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 100);
-            this.groupBox3.TabIndex = 10;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Thresholding";
+            this.Sobel_button.Location = new System.Drawing.Point(7, 37);
+            this.Sobel_button.Name = "Sobel_button";
+            this.Sobel_button.Size = new System.Drawing.Size(75, 23);
+            this.Sobel_button.TabIndex = 1;
+            this.Sobel_button.Text = "Sobel";
+            this.Sobel_button.UseVisualStyleBackColor = true;
+            this.Sobel_button.Click += new System.EventHandler(this.Sobel_button_Click);
             // 
-            // label4
+            // MedianFilter_button
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 12);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "threshold(閥值):";
+            this.MedianFilter_button.Location = new System.Drawing.Point(7, 7);
+            this.MedianFilter_button.Name = "MedianFilter_button";
+            this.MedianFilter_button.Size = new System.Drawing.Size(75, 23);
+            this.MedianFilter_button.TabIndex = 0;
+            this.MedianFilter_button.Text = "Median Filter";
+            this.MedianFilter_button.UseVisualStyleBackColor = true;
+            this.MedianFilter_button.Click += new System.EventHandler(this.MedianFilter_button_Click);
             // 
-            // Thresholding_threshold_textBox
+            // tabPage3
             // 
-            this.Thresholding_threshold_textBox.Location = new System.Drawing.Point(94, 21);
-            this.Thresholding_threshold_textBox.Name = "Thresholding_threshold_textBox";
-            this.Thresholding_threshold_textBox.Size = new System.Drawing.Size(100, 22);
-            this.Thresholding_threshold_textBox.TabIndex = 1;
-            this.Thresholding_threshold_textBox.Text = "100";
+            this.tabPage3.Controls.Add(this.Dilation_button);
+            this.tabPage3.Controls.Add(this.Erosion_button);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(316, 464);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Morphology";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // Thresholding_button
+            // Dilation_button
             // 
-            this.Thresholding_button.Location = new System.Drawing.Point(8, 64);
-            this.Thresholding_button.Name = "Thresholding_button";
-            this.Thresholding_button.Size = new System.Drawing.Size(75, 23);
-            this.Thresholding_button.TabIndex = 2;
-            this.Thresholding_button.Text = "Thresholding";
-            this.Thresholding_button.UseVisualStyleBackColor = true;
-            this.Thresholding_button.Click += new System.EventHandler(this.Thresholding_button_Click);
+            this.Dilation_button.Location = new System.Drawing.Point(4, 34);
+            this.Dilation_button.Name = "Dilation_button";
+            this.Dilation_button.Size = new System.Drawing.Size(75, 23);
+            this.Dilation_button.TabIndex = 1;
+            this.Dilation_button.Text = "Dilation";
+            this.Dilation_button.UseVisualStyleBackColor = true;
+            this.Dilation_button.Click += new System.EventHandler(this.Dilation_button_Click);
             // 
-            // HistogramEqualization_button
+            // Erosion_button
             // 
-            this.HistogramEqualization_button.AutoSize = true;
-            this.HistogramEqualization_button.Location = new System.Drawing.Point(7, 366);
-            this.HistogramEqualization_button.Name = "HistogramEqualization_button";
-            this.HistogramEqualization_button.Size = new System.Drawing.Size(124, 23);
-            this.HistogramEqualization_button.TabIndex = 11;
-            this.HistogramEqualization_button.Text = "Histogram Equalization";
-            this.HistogramEqualization_button.UseVisualStyleBackColor = true;
-            this.HistogramEqualization_button.Click += new System.EventHandler(this.HistogramEqualization_button_Click);
+            this.Erosion_button.Location = new System.Drawing.Point(4, 4);
+            this.Erosion_button.Name = "Erosion_button";
+            this.Erosion_button.Size = new System.Drawing.Size(75, 23);
+            this.Erosion_button.TabIndex = 0;
+            this.Erosion_button.Text = "Erosion";
+            this.Erosion_button.UseVisualStyleBackColor = true;
+            this.Erosion_button.Click += new System.EventHandler(this.Erosion_button_Click);
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.groupBox4);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(316, 464);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Segmention";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.KMeans_k_textBox);
+            this.groupBox4.Controls.Add(this.KMeans_button);
+            this.groupBox4.Location = new System.Drawing.Point(4, 4);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 100);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "k-means";
+            // 
+            // KMeans_button
+            // 
+            this.KMeans_button.Location = new System.Drawing.Point(7, 71);
+            this.KMeans_button.Name = "KMeans_button";
+            this.KMeans_button.Size = new System.Drawing.Size(75, 23);
+            this.KMeans_button.TabIndex = 0;
+            this.KMeans_button.Text = "k-means";
+            this.KMeans_button.UseVisualStyleBackColor = true;
+            this.KMeans_button.Click += new System.EventHandler(this.KMeans_button_Click);
+            // 
+            // KMeans_k_textBox
+            // 
+            this.KMeans_k_textBox.Location = new System.Drawing.Point(58, 21);
+            this.KMeans_k_textBox.Name = "KMeans_k_textBox";
+            this.KMeans_k_textBox.Size = new System.Drawing.Size(100, 22);
+            this.KMeans_k_textBox.TabIndex = 1;
+            this.KMeans_k_textBox.Text = "3";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 12);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "k(群數):";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1027, 522);
+            this.ClientSize = new System.Drawing.Size(1034, 522);
             this.Controls.Add(this.main_splitContainer);
             this.Controls.Add(this.toolBar_panel);
             this.Name = "Form1";
@@ -705,12 +823,17 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -760,6 +883,16 @@
         private System.Windows.Forms.TextBox Thresholding_threshold_textBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button HistogramEqualization_button;
+        private System.Windows.Forms.Button MedianFilter_button;
+        private System.Windows.Forms.Button Sobel_button;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Button Erosion_button;
+        private System.Windows.Forms.Button Dilation_button;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button KMeans_button;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox KMeans_k_textBox;
     }
 }
 

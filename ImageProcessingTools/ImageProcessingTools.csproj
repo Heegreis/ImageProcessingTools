@@ -47,16 +47,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Dilation.cs" />
     <Compile Include="Model\DrawHistogram.cs" />
+    <Compile Include="Model\Erosion.cs" />
     <Compile Include="Model\Grayscale.cs" />
     <Compile Include="Model\Image.cs" />
     <Compile Include="Model\IUserRepository.cs" />
+    <Compile Include="Model\KMeans.cs" />
+    <Compile Include="Model\KmeansData.cs" />
+    <Compile Include="Model\MedianFilter.cs" />
     <Compile Include="Model\PointProcess\HistogramEqualization.cs" />
     <Compile Include="Model\PointProcess\LogTransform.cs" />
     <Compile Include="Model\PointProcess\Negative.cs" />
     <Compile Include="Model\PointProcess\PointProcess.cs" />
     <Compile Include="Model\PointProcess\PowerLaw.cs" />
     <Compile Include="Model\PointProcess\Thresholding.cs" />
+    <Compile Include="Model\Sobel.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserRepository.cs" />
     <Compile Include="Presenter\FileDialogPresenter.cs" />

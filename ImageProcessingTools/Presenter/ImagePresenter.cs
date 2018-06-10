@@ -55,5 +55,25 @@ namespace ImageProcessingTools.Presenter
         {
             _imageView.ResultBitmap = new HistogramEqualization(_imageView.SourceBitmap).GetBitmap();
         }
+        public void MedianFilter()
+        {
+            _imageView.ResultBitmap = new MedianFilter(_imageView.SourceBitmap).GetBitmap();
+        }
+        public void Sobel()
+        {
+            _imageView.ResultBitmap = new Sobel(_imageView.SourceBitmap).GetBitmap();
+        }
+        public void Erosion()
+        {
+            _imageView.ResultBitmap = new Erosion(_imageView.SourceBitmap).GetBitmap();
+        }
+        public void Dilation()
+        {
+            _imageView.ResultBitmap = new Dilation(_imageView.SourceBitmap).GetBitmap();
+        }
+        public void KMeans(int k)
+        {
+            _imageView.ResultBitmap = new KMeans(_imageView.SourceBitmap, k).GetBitmap();
+        }
     }
 }

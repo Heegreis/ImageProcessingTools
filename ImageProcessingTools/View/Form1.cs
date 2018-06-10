@@ -122,5 +122,30 @@ namespace ImageProcessingTools
         {
             _imagePresenter.HistogramEqualization();
         }
+
+        private void MedianFilter_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.MedianFilter();
+        }
+
+        private void Sobel_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.Sobel();
+        }
+
+        private void Erosion_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.Erosion();
+        }
+
+        private void Dilation_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.Dilation();
+        }
+
+        private void KMeans_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.KMeans(int.Parse(KMeans_k_textBox.Text.ToString()));
+        }
     }
 }
