@@ -115,5 +115,6 @@ namespace ImageProcessingTools.Model
 
             RgbData = rgbData;
         }
+
     }
 }

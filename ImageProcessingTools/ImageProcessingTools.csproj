@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,9 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\DrawHistogram.cs" />
     <Compile Include="Model\Grayscale.cs" />
     <Compile Include="Model\Image.cs" />
     <Compile Include="Model\IUserRepository.cs" />
+    <Compile Include="Model\PointProcess\LogTransform.cs" />
+    <Compile Include="Model\PointProcess\Negative.cs" />
+    <Compile Include="Model\PointProcess\PointProcess.cs" />
+    <Compile Include="Model\PointProcess\PowerLaw.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserRepository.cs" />
     <Compile Include="Presenter\FileDialogPresenter.cs" />
@@ -68,6 +74,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\IFileDialogView.cs" />
+    <Compile Include="View\IHistogramView.cs" />
     <Compile Include="View\IImageView.cs" />
     <Compile Include="View\IUserView.cs" />
     <EmbeddedResource Include="View\Form1.resx">
