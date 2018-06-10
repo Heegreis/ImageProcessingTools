@@ -7,21 +7,20 @@ using System.Threading.Tasks;
 
 namespace ImageProcessingTools.Model.PointProcess
 {
-    class Negative : PointProcess
+    class Thresholding : PointProcess
     {
-        public Negative(Bitmap bitmap)
+        public Thresholding(Bitmap bitmap, int t)
         {
             _SourceImage = new Image(bitmap);
-            Process(MakeTable());
+            Process(MakeTable(t));
         }
 
-        /*方法*/
-        private int[] MakeTable()
+        private int[] MakeTable(int t)
         {
             int[] table = new int[256];
             for (int i = 0; i < 256; i++)
             {
-                table[i] = 255 - i;
+                table[i] = i > t ? 255 : 0;
             }
             return table;
         }

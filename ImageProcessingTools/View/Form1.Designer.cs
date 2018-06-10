@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Openfile_button = new System.Windows.Forms.Button();
             this.Grayscale_button = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -58,6 +58,15 @@
             this.image_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.source_pictureBox = new System.Windows.Forms.PictureBox();
             this.result_pictureBox = new System.Windows.Forms.PictureBox();
+            this.histogram_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.histogram_source_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.source_R_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.source_G_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.source_B_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.histogram_result_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.result_R_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.result_G_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.result_B_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.logMessage_panel = new System.Windows.Forms.Panel();
             this.log_label = new System.Windows.Forms.Label();
             this.logTitle_panel = new System.Windows.Forms.Panel();
@@ -76,15 +85,10 @@
             this.LogTransform_c_textBox = new System.Windows.Forms.TextBox();
             this.Negative_button = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.histogram_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.histogram_source_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.histogram_result_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.source_R_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.source_G_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.source_B_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.result_R_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.result_G_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.result_B_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Thresholding_threshold_textBox = new System.Windows.Forms.TextBox();
+            this.Thresholding_button = new System.Windows.Forms.Button();
             this.toolBar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.main_splitContainer)).BeginInit();
             this.main_splitContainer.Panel1.SuspendLayout();
@@ -101,21 +105,22 @@
             this.image_tableLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.source_pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.result_pictureBox)).BeginInit();
+            this.histogram_tableLayoutPanel.SuspendLayout();
+            this.histogram_source_tableLayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.source_R_chart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.source_G_chart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.source_B_chart)).BeginInit();
+            this.histogram_result_tableLayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.result_R_chart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.result_G_chart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.result_B_chart)).BeginInit();
             this.logMessage_panel.SuspendLayout();
             this.logTitle_panel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.histogram_tableLayoutPanel.SuspendLayout();
-            this.histogram_source_tableLayoutPanel.SuspendLayout();
-            this.histogram_result_tableLayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.source_R_chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.source_G_chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.source_B_chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.result_R_chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.result_G_chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.result_B_chart)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Openfile_button
@@ -258,6 +263,173 @@
             this.result_pictureBox.TabIndex = 5;
             this.result_pictureBox.TabStop = false;
             // 
+            // histogram_tableLayoutPanel
+            // 
+            this.histogram_tableLayoutPanel.ColumnCount = 2;
+            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.histogram_tableLayoutPanel.Controls.Add(this.histogram_source_tableLayoutPanel, 0, 0);
+            this.histogram_tableLayoutPanel.Controls.Add(this.histogram_result_tableLayoutPanel, 1, 0);
+            this.histogram_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.histogram_tableLayoutPanel.Location = new System.Drawing.Point(0, 0);
+            this.histogram_tableLayoutPanel.Name = "histogram_tableLayoutPanel";
+            this.histogram_tableLayoutPanel.RowCount = 1;
+            this.histogram_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.histogram_tableLayoutPanel.Size = new System.Drawing.Size(708, 116);
+            this.histogram_tableLayoutPanel.TabIndex = 0;
+            // 
+            // histogram_source_tableLayoutPanel
+            // 
+            this.histogram_source_tableLayoutPanel.ColumnCount = 3;
+            this.histogram_source_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.histogram_source_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.histogram_source_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.histogram_source_tableLayoutPanel.Controls.Add(this.source_R_chart, 0, 0);
+            this.histogram_source_tableLayoutPanel.Controls.Add(this.source_G_chart, 1, 0);
+            this.histogram_source_tableLayoutPanel.Controls.Add(this.source_B_chart, 2, 0);
+            this.histogram_source_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.histogram_source_tableLayoutPanel.Location = new System.Drawing.Point(3, 3);
+            this.histogram_source_tableLayoutPanel.Name = "histogram_source_tableLayoutPanel";
+            this.histogram_source_tableLayoutPanel.RowCount = 1;
+            this.histogram_source_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.histogram_source_tableLayoutPanel.Size = new System.Drawing.Size(348, 110);
+            this.histogram_source_tableLayoutPanel.TabIndex = 0;
+            // 
+            // source_R_chart
+            // 
+            chartArea13.Name = "ChartArea1";
+            this.source_R_chart.ChartAreas.Add(chartArea13);
+            this.source_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend13.Enabled = false;
+            legend13.Name = "Legend1";
+            this.source_R_chart.Legends.Add(legend13);
+            this.source_R_chart.Location = new System.Drawing.Point(3, 3);
+            this.source_R_chart.Name = "source_R_chart";
+            series13.ChartArea = "ChartArea1";
+            series13.Color = System.Drawing.Color.Red;
+            series13.Legend = "Legend1";
+            series13.Name = "Series1";
+            this.source_R_chart.Series.Add(series13);
+            this.source_R_chart.Size = new System.Drawing.Size(110, 104);
+            this.source_R_chart.TabIndex = 0;
+            this.source_R_chart.Text = "Source_R_chart";
+            // 
+            // source_G_chart
+            // 
+            chartArea14.Name = "ChartArea1";
+            this.source_G_chart.ChartAreas.Add(chartArea14);
+            this.source_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend14.Enabled = false;
+            legend14.Name = "Legend1";
+            this.source_G_chart.Legends.Add(legend14);
+            this.source_G_chart.Location = new System.Drawing.Point(119, 3);
+            this.source_G_chart.Name = "source_G_chart";
+            series14.ChartArea = "ChartArea1";
+            series14.Color = System.Drawing.Color.Green;
+            series14.Legend = "Legend1";
+            series14.Name = "Series1";
+            this.source_G_chart.Series.Add(series14);
+            this.source_G_chart.Size = new System.Drawing.Size(110, 104);
+            this.source_G_chart.TabIndex = 1;
+            this.source_G_chart.Text = "chart2";
+            // 
+            // source_B_chart
+            // 
+            chartArea15.Name = "ChartArea1";
+            this.source_B_chart.ChartAreas.Add(chartArea15);
+            this.source_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend15.Enabled = false;
+            legend15.Name = "Legend1";
+            this.source_B_chart.Legends.Add(legend15);
+            this.source_B_chart.Location = new System.Drawing.Point(235, 3);
+            this.source_B_chart.Name = "source_B_chart";
+            series15.ChartArea = "ChartArea1";
+            series15.Color = System.Drawing.Color.Blue;
+            series15.Legend = "Legend1";
+            series15.Name = "Series1";
+            this.source_B_chart.Series.Add(series15);
+            this.source_B_chart.Size = new System.Drawing.Size(110, 104);
+            this.source_B_chart.TabIndex = 2;
+            this.source_B_chart.Text = "chart1";
+            // 
+            // histogram_result_tableLayoutPanel
+            // 
+            this.histogram_result_tableLayoutPanel.ColumnCount = 3;
+            this.histogram_result_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.histogram_result_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.histogram_result_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.histogram_result_tableLayoutPanel.Controls.Add(this.result_R_chart, 0, 0);
+            this.histogram_result_tableLayoutPanel.Controls.Add(this.result_G_chart, 1, 0);
+            this.histogram_result_tableLayoutPanel.Controls.Add(this.result_B_chart, 2, 0);
+            this.histogram_result_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.histogram_result_tableLayoutPanel.Location = new System.Drawing.Point(357, 3);
+            this.histogram_result_tableLayoutPanel.Name = "histogram_result_tableLayoutPanel";
+            this.histogram_result_tableLayoutPanel.RowCount = 1;
+            this.histogram_result_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.histogram_result_tableLayoutPanel.Size = new System.Drawing.Size(348, 110);
+            this.histogram_result_tableLayoutPanel.TabIndex = 1;
+            // 
+            // result_R_chart
+            // 
+            chartArea16.Name = "ChartArea1";
+            this.result_R_chart.ChartAreas.Add(chartArea16);
+            this.result_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend16.Enabled = false;
+            legend16.Name = "Legend1";
+            this.result_R_chart.Legends.Add(legend16);
+            this.result_R_chart.Location = new System.Drawing.Point(3, 3);
+            this.result_R_chart.Name = "result_R_chart";
+            series16.ChartArea = "ChartArea1";
+            series16.Color = System.Drawing.Color.Red;
+            series16.Legend = "Legend1";
+            series16.Name = "Series1";
+            this.result_R_chart.Series.Add(series16);
+            this.result_R_chart.Size = new System.Drawing.Size(110, 104);
+            this.result_R_chart.TabIndex = 0;
+            this.result_R_chart.Text = "chart1";
+            // 
+            // result_G_chart
+            // 
+            chartArea17.Name = "ChartArea1";
+            this.result_G_chart.ChartAreas.Add(chartArea17);
+            this.result_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend17.Enabled = false;
+            legend17.Name = "Legend1";
+            this.result_G_chart.Legends.Add(legend17);
+            this.result_G_chart.Location = new System.Drawing.Point(119, 3);
+            this.result_G_chart.Name = "result_G_chart";
+            series17.ChartArea = "ChartArea1";
+            series17.Color = System.Drawing.Color.Green;
+            series17.Legend = "Legend1";
+            series17.Name = "Series1";
+            this.result_G_chart.Series.Add(series17);
+            this.result_G_chart.Size = new System.Drawing.Size(110, 104);
+            this.result_G_chart.TabIndex = 1;
+            this.result_G_chart.Text = "chart1";
+            // 
+            // result_B_chart
+            // 
+            chartArea18.Name = "ChartArea1";
+            this.result_B_chart.ChartAreas.Add(chartArea18);
+            this.result_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend18.Enabled = false;
+            legend18.Name = "Legend1";
+            this.result_B_chart.Legends.Add(legend18);
+            this.result_B_chart.Location = new System.Drawing.Point(235, 3);
+            this.result_B_chart.Name = "result_B_chart";
+            series18.ChartArea = "ChartArea1";
+            series18.Color = System.Drawing.Color.Blue;
+            series18.Legend = "Legend1";
+            series18.Name = "Series1";
+            this.result_B_chart.Series.Add(series18);
+            this.result_B_chart.Size = new System.Drawing.Size(110, 104);
+            this.result_B_chart.TabIndex = 2;
+            this.result_B_chart.Text = "result_B_chart";
+            // 
             // logMessage_panel
             // 
             this.logMessage_panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -308,6 +480,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.Negative_button);
@@ -437,172 +610,44 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // histogram_tableLayoutPanel
+            // groupBox3
             // 
-            this.histogram_tableLayoutPanel.ColumnCount = 2;
-            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.histogram_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.histogram_tableLayoutPanel.Controls.Add(this.histogram_source_tableLayoutPanel, 0, 0);
-            this.histogram_tableLayoutPanel.Controls.Add(this.histogram_result_tableLayoutPanel, 1, 0);
-            this.histogram_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.histogram_tableLayoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.histogram_tableLayoutPanel.Name = "histogram_tableLayoutPanel";
-            this.histogram_tableLayoutPanel.RowCount = 1;
-            this.histogram_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.histogram_tableLayoutPanel.Size = new System.Drawing.Size(708, 116);
-            this.histogram_tableLayoutPanel.TabIndex = 0;
+            this.groupBox3.Controls.Add(this.Thresholding_button);
+            this.groupBox3.Controls.Add(this.Thresholding_threshold_textBox);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Location = new System.Drawing.Point(7, 259);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 100);
+            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Thresholding";
             // 
-            // histogram_source_tableLayoutPanel
+            // label4
             // 
-            this.histogram_source_tableLayoutPanel.ColumnCount = 3;
-            this.histogram_source_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.histogram_source_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.histogram_source_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.histogram_source_tableLayoutPanel.Controls.Add(this.source_R_chart, 0, 0);
-            this.histogram_source_tableLayoutPanel.Controls.Add(this.source_G_chart, 1, 0);
-            this.histogram_source_tableLayoutPanel.Controls.Add(this.source_B_chart, 2, 0);
-            this.histogram_source_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.histogram_source_tableLayoutPanel.Location = new System.Drawing.Point(3, 3);
-            this.histogram_source_tableLayoutPanel.Name = "histogram_source_tableLayoutPanel";
-            this.histogram_source_tableLayoutPanel.RowCount = 1;
-            this.histogram_source_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.histogram_source_tableLayoutPanel.Size = new System.Drawing.Size(348, 110);
-            this.histogram_source_tableLayoutPanel.TabIndex = 0;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 12);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "threshold(閥值):";
             // 
-            // histogram_result_tableLayoutPanel
+            // Thresholding_threshold_textBox
             // 
-            this.histogram_result_tableLayoutPanel.ColumnCount = 3;
-            this.histogram_result_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.histogram_result_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.histogram_result_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.histogram_result_tableLayoutPanel.Controls.Add(this.result_R_chart, 0, 0);
-            this.histogram_result_tableLayoutPanel.Controls.Add(this.result_G_chart, 1, 0);
-            this.histogram_result_tableLayoutPanel.Controls.Add(this.result_B_chart, 2, 0);
-            this.histogram_result_tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.histogram_result_tableLayoutPanel.Location = new System.Drawing.Point(357, 3);
-            this.histogram_result_tableLayoutPanel.Name = "histogram_result_tableLayoutPanel";
-            this.histogram_result_tableLayoutPanel.RowCount = 1;
-            this.histogram_result_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.histogram_result_tableLayoutPanel.Size = new System.Drawing.Size(348, 110);
-            this.histogram_result_tableLayoutPanel.TabIndex = 1;
+            this.Thresholding_threshold_textBox.Location = new System.Drawing.Point(94, 21);
+            this.Thresholding_threshold_textBox.Name = "Thresholding_threshold_textBox";
+            this.Thresholding_threshold_textBox.Size = new System.Drawing.Size(100, 22);
+            this.Thresholding_threshold_textBox.TabIndex = 1;
+            this.Thresholding_threshold_textBox.Text = "100";
             // 
-            // source_R_chart
+            // Thresholding_button
             // 
-            chartArea1.Name = "ChartArea1";
-            this.source_R_chart.ChartAreas.Add(chartArea1);
-            this.source_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.source_R_chart.Legends.Add(legend1);
-            this.source_R_chart.Location = new System.Drawing.Point(3, 3);
-            this.source_R_chart.Name = "source_R_chart";
-            series1.ChartArea = "ChartArea1";
-            series1.Color = System.Drawing.Color.Red;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.source_R_chart.Series.Add(series1);
-            this.source_R_chart.Size = new System.Drawing.Size(109, 104);
-            this.source_R_chart.TabIndex = 0;
-            this.source_R_chart.Text = "Source_R_chart";
-            // 
-            // source_G_chart
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.source_G_chart.ChartAreas.Add(chartArea2);
-            this.source_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.source_G_chart.Legends.Add(legend2);
-            this.source_G_chart.Location = new System.Drawing.Point(118, 3);
-            this.source_G_chart.Name = "source_G_chart";
-            series2.ChartArea = "ChartArea1";
-            series2.Color = System.Drawing.Color.Green;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.source_G_chart.Series.Add(series2);
-            this.source_G_chart.Size = new System.Drawing.Size(109, 104);
-            this.source_G_chart.TabIndex = 1;
-            this.source_G_chart.Text = "chart2";
-            // 
-            // source_B_chart
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.source_B_chart.ChartAreas.Add(chartArea3);
-            this.source_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.source_B_chart.Legends.Add(legend3);
-            this.source_B_chart.Location = new System.Drawing.Point(233, 3);
-            this.source_B_chart.Name = "source_B_chart";
-            series3.ChartArea = "ChartArea1";
-            series3.Color = System.Drawing.Color.Blue;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.source_B_chart.Series.Add(series3);
-            this.source_B_chart.Size = new System.Drawing.Size(112, 104);
-            this.source_B_chart.TabIndex = 2;
-            this.source_B_chart.Text = "chart1";
-            // 
-            // result_R_chart
-            // 
-            chartArea4.Name = "ChartArea1";
-            this.result_R_chart.ChartAreas.Add(chartArea4);
-            this.result_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.result_R_chart.Legends.Add(legend4);
-            this.result_R_chart.Location = new System.Drawing.Point(3, 3);
-            this.result_R_chart.Name = "result_R_chart";
-            series4.ChartArea = "ChartArea1";
-            series4.Color = System.Drawing.Color.Red;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.result_R_chart.Series.Add(series4);
-            this.result_R_chart.Size = new System.Drawing.Size(109, 104);
-            this.result_R_chart.TabIndex = 0;
-            this.result_R_chart.Text = "chart1";
-            // 
-            // result_G_chart
-            // 
-            chartArea5.Name = "ChartArea1";
-            this.result_G_chart.ChartAreas.Add(chartArea5);
-            this.result_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Enabled = false;
-            legend5.Name = "Legend1";
-            this.result_G_chart.Legends.Add(legend5);
-            this.result_G_chart.Location = new System.Drawing.Point(118, 3);
-            this.result_G_chart.Name = "result_G_chart";
-            series5.ChartArea = "ChartArea1";
-            series5.Color = System.Drawing.Color.Green;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.result_G_chart.Series.Add(series5);
-            this.result_G_chart.Size = new System.Drawing.Size(109, 104);
-            this.result_G_chart.TabIndex = 1;
-            this.result_G_chart.Text = "chart1";
-            // 
-            // result_B_chart
-            // 
-            chartArea6.Name = "ChartArea1";
-            this.result_B_chart.ChartAreas.Add(chartArea6);
-            this.result_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Enabled = false;
-            legend6.Name = "Legend1";
-            this.result_B_chart.Legends.Add(legend6);
-            this.result_B_chart.Location = new System.Drawing.Point(233, 3);
-            this.result_B_chart.Name = "result_B_chart";
-            series6.ChartArea = "ChartArea1";
-            series6.Color = System.Drawing.Color.Blue;
-            series6.Legend = "Legend1";
-            series6.Name = "Series1";
-            this.result_B_chart.Series.Add(series6);
-            this.result_B_chart.Size = new System.Drawing.Size(112, 104);
-            this.result_B_chart.TabIndex = 2;
-            this.result_B_chart.Text = "result_B_chart";
+            this.Thresholding_button.Location = new System.Drawing.Point(8, 64);
+            this.Thresholding_button.Name = "Thresholding_button";
+            this.Thresholding_button.Size = new System.Drawing.Size(75, 23);
+            this.Thresholding_button.TabIndex = 2;
+            this.Thresholding_button.Text = "Thresholding";
+            this.Thresholding_button.UseVisualStyleBackColor = true;
+            this.Thresholding_button.Click += new System.EventHandler(this.Thresholding_button_Click);
             // 
             // Form1
             // 
@@ -630,6 +675,15 @@
             this.image_tableLayoutPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.source_pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.result_pictureBox)).EndInit();
+            this.histogram_tableLayoutPanel.ResumeLayout(false);
+            this.histogram_source_tableLayoutPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.source_R_chart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.source_G_chart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.source_B_chart)).EndInit();
+            this.histogram_result_tableLayoutPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.result_R_chart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.result_G_chart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.result_B_chart)).EndInit();
             this.logMessage_panel.ResumeLayout(false);
             this.logMessage_panel.PerformLayout();
             this.logTitle_panel.ResumeLayout(false);
@@ -640,15 +694,8 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.histogram_tableLayoutPanel.ResumeLayout(false);
-            this.histogram_source_tableLayoutPanel.ResumeLayout(false);
-            this.histogram_result_tableLayoutPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.source_R_chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.source_G_chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.source_B_chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.result_R_chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.result_G_chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.result_B_chart)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -693,6 +740,10 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart result_R_chart;
         private System.Windows.Forms.DataVisualization.Charting.Chart result_G_chart;
         private System.Windows.Forms.DataVisualization.Charting.Chart result_B_chart;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button Thresholding_button;
+        private System.Windows.Forms.TextBox Thresholding_threshold_textBox;
+        private System.Windows.Forms.Label label4;
     }
 }
 

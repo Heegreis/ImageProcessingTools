@@ -55,6 +55,7 @@
     <Compile Include="Model\PointProcess\Negative.cs" />
     <Compile Include="Model\PointProcess\PointProcess.cs" />
     <Compile Include="Model\PointProcess\PowerLaw.cs" />
+    <Compile Include="Model\PointProcess\Thresholding.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserRepository.cs" />
     <Compile Include="Presenter\FileDialogPresenter.cs" />

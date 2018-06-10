@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ImageProcessingTools.Model;
+using ImageProcessingTools.Model.PointProcess;
 using ImageProcessingTools.View;
 
 namespace ImageProcessingTools.Presenter
@@ -22,19 +23,13 @@ namespace ImageProcessingTools.Presenter
             _histogramView = histogramView;
         }
 
-        public void OpenImageFile()
+        public void SourseHistogram()
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            //openFileDialog.InitialDirectory = "C:\\";
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                //Console.WriteLine(_imageView.OpenFileDialog.FileName);
-                //Bitmap bitmap;
-                _imageView.SourceBitmap = (Bitmap)System.Drawing.Image.FromFile(openFileDialog.FileName);
-                //bitmap = (Bitmap)Image.FromFile(openFileDialog.FileName);
-            }
-            
-            
+            DrawHistogram sourceHistogram = new DrawHistogram(_imageView.SourceBitmap, _histogramView.SourceChartR, _histogramView.SourceChartG, _histogramView.SourceChartB);
+        }
+        public void ResultHistogram()
+        {
+            DrawHistogram resultHistogram = new DrawHistogram(_imageView.ResultBitmap, _histogramView.ResultChartR, _histogramView.ResultChartG, _histogramView.ResultChartB);
         }
         public void Grayscale()
         {
@@ -52,13 +47,9 @@ namespace ImageProcessingTools.Presenter
         {
             _imageView.ResultBitmap = new PowerLaw(_imageView.SourceBitmap, c, r).GetBitmap();
         }
-        public void SourseHistogram()
+        public void Thresholding(int t)
         {
-            DrawHistogram sourceHistogram = new DrawHistogram(_imageView.SourceBitmap, _histogramView.SourceChartR, _histogramView.SourceChartG, _histogramView.SourceChartB);
-        }
-        public void ResultHistogram()
-        {
-            DrawHistogram resultHistogram = new DrawHistogram(_imageView.ResultBitmap, _histogramView.ResultChartR, _histogramView.ResultChartG, _histogramView.ResultChartB);
+            _imageView.ResultBitmap = new Thresholding(_imageView.SourceBitmap, t).GetBitmap();
         }
     }
 }

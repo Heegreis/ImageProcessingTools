@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ImageProcessingTools.Model
+namespace ImageProcessingTools.Model.PointProcess
 {
     class PointProcess
     {
