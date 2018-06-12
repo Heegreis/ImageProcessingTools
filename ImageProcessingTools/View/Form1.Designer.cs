@@ -97,9 +97,10 @@
             this.Erosion_button = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.KMeans_button = new System.Windows.Forms.Button();
-            this.KMeans_k_textBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.KMeans_k_textBox = new System.Windows.Forms.TextBox();
+            this.KMeans_button = new System.Windows.Forms.Button();
+            this.Thresholding_auto_button = new System.Windows.Forms.Button();
             this.toolBar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.main_splitContainer)).BeginInit();
             this.main_splitContainer.Panel1.SuspendLayout();
@@ -524,6 +525,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.Thresholding_auto_button);
             this.groupBox3.Controls.Add(this.Thresholding_button);
             this.groupBox3.Controls.Add(this.Thresholding_threshold_textBox);
             this.groupBox3.Controls.Add(this.label4);
@@ -678,7 +680,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(316, 464);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "spatial filtering ";
+            this.tabPage2.Text = "Spatial Filtering";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // Sobel_button
@@ -754,6 +756,23 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "k-means";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 12);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "k(群數):";
+            // 
+            // KMeans_k_textBox
+            // 
+            this.KMeans_k_textBox.Location = new System.Drawing.Point(58, 21);
+            this.KMeans_k_textBox.Name = "KMeans_k_textBox";
+            this.KMeans_k_textBox.Size = new System.Drawing.Size(100, 22);
+            this.KMeans_k_textBox.TabIndex = 1;
+            this.KMeans_k_textBox.Text = "3";
+            // 
             // KMeans_button
             // 
             this.KMeans_button.Location = new System.Drawing.Point(7, 71);
@@ -764,22 +783,15 @@
             this.KMeans_button.UseVisualStyleBackColor = true;
             this.KMeans_button.Click += new System.EventHandler(this.KMeans_button_Click);
             // 
-            // KMeans_k_textBox
+            // Thresholding_auto_button
             // 
-            this.KMeans_k_textBox.Location = new System.Drawing.Point(58, 21);
-            this.KMeans_k_textBox.Name = "KMeans_k_textBox";
-            this.KMeans_k_textBox.Size = new System.Drawing.Size(100, 22);
-            this.KMeans_k_textBox.TabIndex = 1;
-            this.KMeans_k_textBox.Text = "3";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 12);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "k(群數):";
+            this.Thresholding_auto_button.Location = new System.Drawing.Point(90, 63);
+            this.Thresholding_auto_button.Name = "Thresholding_auto_button";
+            this.Thresholding_auto_button.Size = new System.Drawing.Size(75, 23);
+            this.Thresholding_auto_button.TabIndex = 3;
+            this.Thresholding_auto_button.Text = "auto Thresholding";
+            this.Thresholding_auto_button.UseVisualStyleBackColor = true;
+            this.Thresholding_auto_button.Click += new System.EventHandler(this.Thresholding_auto_button_Click);
             // 
             // Form1
             // 
@@ -893,6 +905,7 @@
         private System.Windows.Forms.Button KMeans_button;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox KMeans_k_textBox;
+        private System.Windows.Forms.Button Thresholding_auto_button;
     }
 }
 

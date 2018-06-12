@@ -47,6 +47,10 @@ namespace ImageProcessingTools.Presenter
         {
             _imageView.ResultBitmap = new PowerLaw(_imageView.SourceBitmap, c, r).GetBitmap();
         }
+        public void Thresholding()
+        {
+            _imageView.ResultBitmap = new Thresholding(_imageView.SourceBitmap).GetBitmap();
+        }
         public void Thresholding(int t)
         {
             _imageView.ResultBitmap = new Thresholding(_imageView.SourceBitmap, t).GetBitmap();

@@ -113,6 +113,11 @@ namespace ImageProcessingTools
             _imagePresenter.PowerLaw(c, r);
         }
 
+        private void Thresholding_auto_button_Click(object sender, EventArgs e)
+        {
+            _imagePresenter.Thresholding();
+        }
+
         private void Thresholding_button_Click(object sender, EventArgs e)
         {
             _imagePresenter.Thresholding(int.Parse(Thresholding_threshold_textBox.Text.ToString()));
