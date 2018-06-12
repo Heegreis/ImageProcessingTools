@@ -67,6 +67,7 @@
     <Compile Include="Model\UserRepository.cs" />
     <Compile Include="Presenter\FileDialogPresenter.cs" />
     <Compile Include="Presenter\ImagePresenter.cs" />
+    <Compile Include="Presenter\LogPresenter.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,7 @@
     <Compile Include="View\IFileDialogView.cs" />
     <Compile Include="View\IHistogramView.cs" />
     <Compile Include="View\IImageView.cs" />
+    <Compile Include="View\ILogView.cs" />
     <Compile Include="View\IUserView.cs" />
     <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -7,7 +7,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace ImageProcessingTools
 {
-    public partial class Form1 : Form, IImageView, IFileDialogView, IHistogramView
+    public partial class Form1 : Form, IImageView, IFileDialogView, IHistogramView, ILogView
     {
         public Form1()
         {
@@ -16,30 +16,26 @@ namespace ImageProcessingTools
 
         private ImagePresenter _imagePresenter { get; set; }
         private FileDialogPresenter _fileDialogPresenter;
+        private LogPresenter _logPresenter;
 
         private void Form1_Load(object sender, EventArgs e)
         {
             //綁定一個P
             _imagePresenter = new ImagePresenter(this, this);
             _fileDialogPresenter = new FileDialogPresenter(this, this);
+            _logPresenter = new LogPresenter(this);
         }
 
         /*實作Interface*/
         //IImageView
         public Bitmap SourceBitmap
         {
-            //get => (Bitmap)source_pictureBox.Image;
             get => (Bitmap)source_pictureBox.Image;
             set
             {
                 source_pictureBox.Image = value;
                 SourceHistogram();
             }
-            /*set
-{
-   SourceBitmap = value;
-   source_pictureBox.Image = SourceBitmap;
-}*/
         }
         public Bitmap ResultBitmap
         {
@@ -60,7 +56,13 @@ namespace ImageProcessingTools
         public Chart ResultChartR { get => result_R_chart; }
         public Chart ResultChartG { get => result_G_chart; }
         public Chart ResultChartB { get => result_B_chart; }
+        //ILogView
+        public string Log
+        {
+            get => log_label.Text.ToString(); set => log_label.Text = value;
+        }
 
+        /*Button*/
         private void Openfile_button_Click(object sender, EventArgs e)
         {
             _fileDialogPresenter.OpenImageFile();
@@ -83,17 +85,23 @@ namespace ImageProcessingTools
 
         private void Grayscale_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.Grayscale();
+            _logPresenter.TimeStopToLog();
         }
 
         private void Negative_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.Negative();
+            _logPresenter.TimeStopToLog();
         }
 
         private void LogTransform_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.LogTransform(int.Parse(LogTransform_c_textBox.Text.ToString()));
+            _logPresenter.TimeStopToLog();
         }
 
         private void PowerLaw_button_Click(object sender, EventArgs e)
@@ -102,35 +110,44 @@ namespace ImageProcessingTools
             double r = 0.7;
             try
             {*/
-                int c = int.Parse(PowerLaw_c_textBox.Text.ToString());
+            int c = int.Parse(PowerLaw_c_textBox.Text.ToString());
                 double r = double.Parse(PowerLaw_r_textBox.Text.ToString());
             /*}
             catch (FormatException ex)
             {
                 Console.WriteLine(ex.Message);
             }*/
-
+            _logPresenter.TimeCountStart();
             _imagePresenter.PowerLaw(c, r);
+            _logPresenter.TimeStopToLog();
         }
 
         private void Thresholding_auto_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.Thresholding();
+            _logPresenter.TimeStopToLog();
         }
 
         private void Thresholding_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.Thresholding(int.Parse(Thresholding_threshold_textBox.Text.ToString()));
+            _logPresenter.TimeStopToLog();
         }
 
         private void HistogramEqualization_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.HistogramEqualization();
+            _logPresenter.TimeStopToLog();
         }
 
         private void MedianFilter_button_Click(object sender, EventArgs e)
         {
+            _logPresenter.TimeCountStart();
             _imagePresenter.MedianFilter();
+            _logPresenter.TimeStopToLog();
         }
 
         private void Sobel_button_Click(object sender, EventArgs e)
