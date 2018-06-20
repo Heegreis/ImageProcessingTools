@@ -169,5 +169,12 @@ namespace ImageProcessingTools
         {
             _imagePresenter.KMeans(int.Parse(KMeans_k_textBox.Text.ToString()));
         }
+
+        private void BitPlaneSlicing_button_Click(object sender, EventArgs e)
+        {
+            int bit = Convert.ToInt32(BitPlaneSlicing_numericUpDown.Value);
+
+            _imagePresenter.BitPlaneSlicing(bit);
+        }
     }
 }

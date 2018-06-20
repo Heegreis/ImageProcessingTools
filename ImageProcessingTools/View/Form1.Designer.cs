@@ -73,8 +73,11 @@
             this.logTitle_label = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.BitPlaneSlicing_button = new System.Windows.Forms.Button();
             this.HistogramEqualization_button = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.Thresholding_auto_button = new System.Windows.Forms.Button();
             this.Thresholding_button = new System.Windows.Forms.Button();
             this.Thresholding_threshold_textBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -100,7 +103,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.KMeans_k_textBox = new System.Windows.Forms.TextBox();
             this.KMeans_button = new System.Windows.Forms.Button();
-            this.Thresholding_auto_button = new System.Windows.Forms.Button();
+            this.BitPlaneSlicing_numericUpDown = new System.Windows.Forms.NumericUpDown();
             this.toolBar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.main_splitContainer)).BeginInit();
             this.main_splitContainer.Panel1.SuspendLayout();
@@ -130,6 +133,7 @@
             this.logTitle_panel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -137,6 +141,7 @@
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BitPlaneSlicing_numericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // Openfile_button
@@ -498,6 +503,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.AutoScroll = true;
+            this.tabPage1.Controls.Add(this.groupBox5);
             this.tabPage1.Controls.Add(this.HistogramEqualization_button);
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Controls.Add(this.groupBox2);
@@ -511,6 +518,28 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Point Processing";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.BitPlaneSlicing_numericUpDown);
+            this.groupBox5.Controls.Add(this.BitPlaneSlicing_button);
+            this.groupBox5.Location = new System.Drawing.Point(7, 399);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(200, 100);
+            this.groupBox5.TabIndex = 12;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "8 Bit-plane Slicing";
+            // 
+            // BitPlaneSlicing_button
+            // 
+            this.BitPlaneSlicing_button.AutoSize = true;
+            this.BitPlaneSlicing_button.Location = new System.Drawing.Point(5, 71);
+            this.BitPlaneSlicing_button.Name = "BitPlaneSlicing_button";
+            this.BitPlaneSlicing_button.Size = new System.Drawing.Size(102, 23);
+            this.BitPlaneSlicing_button.TabIndex = 8;
+            this.BitPlaneSlicing_button.Text = "8 Bit-plane Slicing";
+            this.BitPlaneSlicing_button.UseVisualStyleBackColor = true;
+            this.BitPlaneSlicing_button.Click += new System.EventHandler(this.BitPlaneSlicing_button_Click);
             // 
             // HistogramEqualization_button
             // 
@@ -535,6 +564,16 @@
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Thresholding";
+            // 
+            // Thresholding_auto_button
+            // 
+            this.Thresholding_auto_button.Location = new System.Drawing.Point(90, 63);
+            this.Thresholding_auto_button.Name = "Thresholding_auto_button";
+            this.Thresholding_auto_button.Size = new System.Drawing.Size(75, 23);
+            this.Thresholding_auto_button.TabIndex = 3;
+            this.Thresholding_auto_button.Text = "auto Thresholding";
+            this.Thresholding_auto_button.UseVisualStyleBackColor = true;
+            this.Thresholding_auto_button.Click += new System.EventHandler(this.Thresholding_auto_button_Click);
             // 
             // Thresholding_button
             // 
@@ -783,15 +822,27 @@
             this.KMeans_button.UseVisualStyleBackColor = true;
             this.KMeans_button.Click += new System.EventHandler(this.KMeans_button_Click);
             // 
-            // Thresholding_auto_button
+            // BitPlaneSlicing_numericUpDown
             // 
-            this.Thresholding_auto_button.Location = new System.Drawing.Point(90, 63);
-            this.Thresholding_auto_button.Name = "Thresholding_auto_button";
-            this.Thresholding_auto_button.Size = new System.Drawing.Size(75, 23);
-            this.Thresholding_auto_button.TabIndex = 3;
-            this.Thresholding_auto_button.Text = "auto Thresholding";
-            this.Thresholding_auto_button.UseVisualStyleBackColor = true;
-            this.Thresholding_auto_button.Click += new System.EventHandler(this.Thresholding_auto_button_Click);
+            this.BitPlaneSlicing_numericUpDown.Location = new System.Drawing.Point(8, 21);
+            this.BitPlaneSlicing_numericUpDown.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.BitPlaneSlicing_numericUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.BitPlaneSlicing_numericUpDown.Name = "BitPlaneSlicing_numericUpDown";
+            this.BitPlaneSlicing_numericUpDown.Size = new System.Drawing.Size(120, 22);
+            this.BitPlaneSlicing_numericUpDown.TabIndex = 9;
+            this.BitPlaneSlicing_numericUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
@@ -835,6 +886,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -846,6 +899,7 @@
             this.tabPage4.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BitPlaneSlicing_numericUpDown)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -906,6 +960,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox KMeans_k_textBox;
         private System.Windows.Forms.Button Thresholding_auto_button;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Button BitPlaneSlicing_button;
+        private System.Windows.Forms.NumericUpDown BitPlaneSlicing_numericUpDown;
     }
 }
 

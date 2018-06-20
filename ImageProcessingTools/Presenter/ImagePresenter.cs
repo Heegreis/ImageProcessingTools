@@ -79,5 +79,9 @@ namespace ImageProcessingTools.Presenter
         {
             _imageView.ResultBitmap = new KMeans(_imageView.SourceBitmap, k).GetBitmap();
         }
+        public void BitPlaneSlicing(int bit)
+        {
+            _imageView.ResultBitmap = new BitPlaneSlicing(_imageView.SourceBitmap, bit).GetBitmap();
+        }
     }
 }
