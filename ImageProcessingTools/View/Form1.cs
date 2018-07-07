@@ -1,6 +1,7 @@
 ﻿using ImageProcessingTools.Presenter;
 using ImageProcessingTools.View;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
@@ -9,6 +10,10 @@ namespace ImageProcessingTools
 {
     public partial class Form1 : Form, IImageView, IFileDialogView, IHistogramView, ILogView
     {
+        int editMode = 1;
+
+        List<Bitmap> bitmapList = new List<Bitmap>();
+
         public Form1()
         {
             InitializeComponent();
@@ -30,7 +35,25 @@ namespace ImageProcessingTools
         //IImageView
         public Bitmap SourceBitmap
         {
-            get => (Bitmap)source_pictureBox.Image;
+            get
+            {
+                switch (editMode)
+                {
+                    case 1:
+                        return (Bitmap)source_pictureBox.Image;
+                    case 2:
+                        if (bitmapList.Count > 0)
+                        {
+                            return (Bitmap)result_pictureBox.Image;
+                        }
+                        else
+                        {
+                            return (Bitmap)source_pictureBox.Image;
+                        }
+                    default:
+                        return (Bitmap)source_pictureBox.Image;
+                }
+            }
             set
             {
                 source_pictureBox.Image = value;
@@ -43,6 +66,7 @@ namespace ImageProcessingTools
             set
             {
                 result_pictureBox.Image = value;
+                bitmapList.Add(value);
                 ResultHistogram();
             }
         }
@@ -77,6 +101,20 @@ namespace ImageProcessingTools
         private void 另存新檔AToolStripMenuItem_Click(object sender, EventArgs e)
         {
             _fileDialogPresenter.SaveImageFile();
+        }
+
+        private void 單次處理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            單次處理ToolStripMenuItem.Checked = true;
+            連續處理ToolStripMenuItem.Checked = false;
+            editMode = 1;
+        }
+
+        private void 連續處理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            單次處理ToolStripMenuItem.Checked = false;
+            連續處理ToolStripMenuItem.Checked = true;
+            editMode = 2;
         }
 
         //顯示與更新直方圖
