@@ -46,10 +46,10 @@ namespace ImageProcessingTools.Model
             this.group = new int[Width, Height];
             this.coSet = new int[k, 4];
 
-            cluster();
+            Cluster();
         }
 
-        private void cluster()
+        private void Cluster()
         {
             bool isQuit = false;
             do

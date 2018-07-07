@@ -63,16 +63,23 @@ namespace ImageProcessingTools
         }
 
         /*Button*/
-        private void Openfile_button_Click(object sender, EventArgs e)
+        //標準menu選項
+        private void 開啟OToolStripMenuItem_Click(object sender, EventArgs e)
         {
             _fileDialogPresenter.OpenImageFile();
         }
 
-        private void SaveFile_button_Click(object sender, EventArgs e)
+        private void 儲存SToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void 另存新檔AToolStripMenuItem_Click(object sender, EventArgs e)
         {
             _fileDialogPresenter.SaveImageFile();
         }
 
+        //顯示與更新直方圖
         private void SourceHistogram()
         {
             _imagePresenter.SourseHistogram();
@@ -83,6 +90,7 @@ namespace ImageProcessingTools
             _imagePresenter.ResultHistogram();
         }
 
+        /*執行影像處理功能*/
         private void Grayscale_button_Click(object sender, EventArgs e)
         {
             _logPresenter.TimeCountStart();
@@ -176,5 +184,6 @@ namespace ImageProcessingTools
 
             _imagePresenter.BitPlaneSlicing(bit);
         }
+
     }
 }

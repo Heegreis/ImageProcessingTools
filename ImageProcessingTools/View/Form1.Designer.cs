@@ -28,30 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.Openfile_button = new System.Windows.Forms.Button();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea25 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend25 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea26 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend26 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series26 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea27 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend27 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea28 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend28 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea29 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend29 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea30 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend30 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Grayscale_button = new System.Windows.Forms.Button();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.toolBar_panel = new System.Windows.Forms.Panel();
-            this.SaveFile_button = new System.Windows.Forms.Button();
             this.main_splitContainer = new System.Windows.Forms.SplitContainer();
             this.content_splitContainer = new System.Windows.Forms.SplitContainer();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
@@ -74,6 +72,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.BitPlaneSlicing_numericUpDown = new System.Windows.Forms.NumericUpDown();
             this.BitPlaneSlicing_button = new System.Windows.Forms.Button();
             this.HistogramEqualization_button = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -103,7 +102,37 @@
             this.label5 = new System.Windows.Forms.Label();
             this.KMeans_k_textBox = new System.Windows.Forms.TextBox();
             this.KMeans_button = new System.Windows.Forms.Button();
-            this.BitPlaneSlicing_numericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.檔案FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.新增NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.開啟OToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.儲存SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.另存新檔AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.列印PToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.預覽列印VToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.結束XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.編輯EToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.復原UToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.取消復原RToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.剪下TToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.複製CToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.貼上PToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.全選AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.工具TToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.自訂CToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.選項OToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.說明HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.內容CToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.索引IToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.搜尋SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.關於AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.toolBar_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.main_splitContainer)).BeginInit();
             this.main_splitContainer.Panel1.SuspendLayout();
@@ -134,6 +163,7 @@
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BitPlaneSlicing_numericUpDown)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -141,18 +171,8 @@
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BitPlaneSlicing_numericUpDown)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Openfile_button
-            // 
-            this.Openfile_button.Location = new System.Drawing.Point(3, 3);
-            this.Openfile_button.Name = "Openfile_button";
-            this.Openfile_button.Size = new System.Drawing.Size(75, 23);
-            this.Openfile_button.TabIndex = 2;
-            this.Openfile_button.Text = "開啟圖檔";
-            this.Openfile_button.UseVisualStyleBackColor = true;
-            this.Openfile_button.Click += new System.EventHandler(this.Openfile_button_Click);
             // 
             // Grayscale_button
             // 
@@ -170,23 +190,12 @@
             // 
             // toolBar_panel
             // 
-            this.toolBar_panel.Controls.Add(this.SaveFile_button);
-            this.toolBar_panel.Controls.Add(this.Openfile_button);
+            this.toolBar_panel.Controls.Add(this.menuStrip1);
             this.toolBar_panel.Dock = System.Windows.Forms.DockStyle.Top;
             this.toolBar_panel.Location = new System.Drawing.Point(0, 0);
             this.toolBar_panel.Name = "toolBar_panel";
             this.toolBar_panel.Size = new System.Drawing.Size(1034, 30);
             this.toolBar_panel.TabIndex = 5;
-            // 
-            // SaveFile_button
-            // 
-            this.SaveFile_button.Location = new System.Drawing.Point(84, 3);
-            this.SaveFile_button.Name = "SaveFile_button";
-            this.SaveFile_button.Size = new System.Drawing.Size(75, 23);
-            this.SaveFile_button.TabIndex = 5;
-            this.SaveFile_button.Text = "儲存圖檔";
-            this.SaveFile_button.UseVisualStyleBackColor = true;
-            this.SaveFile_button.Click += new System.EventHandler(this.SaveFile_button_Click);
             // 
             // main_splitContainer
             // 
@@ -322,57 +331,57 @@
             // 
             // source_R_chart
             // 
-            chartArea1.Name = "ChartArea1";
-            this.source_R_chart.ChartAreas.Add(chartArea1);
+            chartArea25.Name = "ChartArea1";
+            this.source_R_chart.ChartAreas.Add(chartArea25);
             this.source_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.source_R_chart.Legends.Add(legend1);
+            legend25.Enabled = false;
+            legend25.Name = "Legend1";
+            this.source_R_chart.Legends.Add(legend25);
             this.source_R_chart.Location = new System.Drawing.Point(3, 3);
             this.source_R_chart.Name = "source_R_chart";
-            series1.ChartArea = "ChartArea1";
-            series1.Color = System.Drawing.Color.Red;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.source_R_chart.Series.Add(series1);
+            series25.ChartArea = "ChartArea1";
+            series25.Color = System.Drawing.Color.Red;
+            series25.Legend = "Legend1";
+            series25.Name = "Series1";
+            this.source_R_chart.Series.Add(series25);
             this.source_R_chart.Size = new System.Drawing.Size(108, 104);
             this.source_R_chart.TabIndex = 0;
             this.source_R_chart.Text = "Source_R_chart";
             // 
             // source_G_chart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.source_G_chart.ChartAreas.Add(chartArea2);
+            chartArea26.Name = "ChartArea1";
+            this.source_G_chart.ChartAreas.Add(chartArea26);
             this.source_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.source_G_chart.Legends.Add(legend2);
+            legend26.Enabled = false;
+            legend26.Name = "Legend1";
+            this.source_G_chart.Legends.Add(legend26);
             this.source_G_chart.Location = new System.Drawing.Point(117, 3);
             this.source_G_chart.Name = "source_G_chart";
-            series2.ChartArea = "ChartArea1";
-            series2.Color = System.Drawing.Color.Green;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.source_G_chart.Series.Add(series2);
+            series26.ChartArea = "ChartArea1";
+            series26.Color = System.Drawing.Color.Green;
+            series26.Legend = "Legend1";
+            series26.Name = "Series1";
+            this.source_G_chart.Series.Add(series26);
             this.source_G_chart.Size = new System.Drawing.Size(108, 104);
             this.source_G_chart.TabIndex = 1;
             this.source_G_chart.Text = "chart2";
             // 
             // source_B_chart
             // 
-            chartArea3.Name = "ChartArea1";
-            this.source_B_chart.ChartAreas.Add(chartArea3);
+            chartArea27.Name = "ChartArea1";
+            this.source_B_chart.ChartAreas.Add(chartArea27);
             this.source_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.source_B_chart.Legends.Add(legend3);
+            legend27.Enabled = false;
+            legend27.Name = "Legend1";
+            this.source_B_chart.Legends.Add(legend27);
             this.source_B_chart.Location = new System.Drawing.Point(231, 3);
             this.source_B_chart.Name = "source_B_chart";
-            series3.ChartArea = "ChartArea1";
-            series3.Color = System.Drawing.Color.Blue;
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.source_B_chart.Series.Add(series3);
+            series27.ChartArea = "ChartArea1";
+            series27.Color = System.Drawing.Color.Blue;
+            series27.Legend = "Legend1";
+            series27.Name = "Series1";
+            this.source_B_chart.Series.Add(series27);
             this.source_B_chart.Size = new System.Drawing.Size(109, 104);
             this.source_B_chart.TabIndex = 2;
             this.source_B_chart.Text = "chart1";
@@ -396,57 +405,57 @@
             // 
             // result_R_chart
             // 
-            chartArea4.Name = "ChartArea1";
-            this.result_R_chart.ChartAreas.Add(chartArea4);
+            chartArea28.Name = "ChartArea1";
+            this.result_R_chart.ChartAreas.Add(chartArea28);
             this.result_R_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.result_R_chart.Legends.Add(legend4);
+            legend28.Enabled = false;
+            legend28.Name = "Legend1";
+            this.result_R_chart.Legends.Add(legend28);
             this.result_R_chart.Location = new System.Drawing.Point(3, 3);
             this.result_R_chart.Name = "result_R_chart";
-            series4.ChartArea = "ChartArea1";
-            series4.Color = System.Drawing.Color.Red;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.result_R_chart.Series.Add(series4);
+            series28.ChartArea = "ChartArea1";
+            series28.Color = System.Drawing.Color.Red;
+            series28.Legend = "Legend1";
+            series28.Name = "Series1";
+            this.result_R_chart.Series.Add(series28);
             this.result_R_chart.Size = new System.Drawing.Size(108, 104);
             this.result_R_chart.TabIndex = 0;
             this.result_R_chart.Text = "chart1";
             // 
             // result_G_chart
             // 
-            chartArea5.Name = "ChartArea1";
-            this.result_G_chart.ChartAreas.Add(chartArea5);
+            chartArea29.Name = "ChartArea1";
+            this.result_G_chart.ChartAreas.Add(chartArea29);
             this.result_G_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Enabled = false;
-            legend5.Name = "Legend1";
-            this.result_G_chart.Legends.Add(legend5);
+            legend29.Enabled = false;
+            legend29.Name = "Legend1";
+            this.result_G_chart.Legends.Add(legend29);
             this.result_G_chart.Location = new System.Drawing.Point(117, 3);
             this.result_G_chart.Name = "result_G_chart";
-            series5.ChartArea = "ChartArea1";
-            series5.Color = System.Drawing.Color.Green;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.result_G_chart.Series.Add(series5);
+            series29.ChartArea = "ChartArea1";
+            series29.Color = System.Drawing.Color.Green;
+            series29.Legend = "Legend1";
+            series29.Name = "Series1";
+            this.result_G_chart.Series.Add(series29);
             this.result_G_chart.Size = new System.Drawing.Size(108, 104);
             this.result_G_chart.TabIndex = 1;
             this.result_G_chart.Text = "chart1";
             // 
             // result_B_chart
             // 
-            chartArea6.Name = "ChartArea1";
-            this.result_B_chart.ChartAreas.Add(chartArea6);
+            chartArea30.Name = "ChartArea1";
+            this.result_B_chart.ChartAreas.Add(chartArea30);
             this.result_B_chart.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Enabled = false;
-            legend6.Name = "Legend1";
-            this.result_B_chart.Legends.Add(legend6);
+            legend30.Enabled = false;
+            legend30.Name = "Legend1";
+            this.result_B_chart.Legends.Add(legend30);
             this.result_B_chart.Location = new System.Drawing.Point(231, 3);
             this.result_B_chart.Name = "result_B_chart";
-            series6.ChartArea = "ChartArea1";
-            series6.Color = System.Drawing.Color.Blue;
-            series6.Legend = "Legend1";
-            series6.Name = "Series1";
-            this.result_B_chart.Series.Add(series6);
+            series30.ChartArea = "ChartArea1";
+            series30.Color = System.Drawing.Color.Blue;
+            series30.Legend = "Legend1";
+            series30.Name = "Series1";
+            this.result_B_chart.Series.Add(series30);
             this.result_B_chart.Size = new System.Drawing.Size(110, 104);
             this.result_B_chart.TabIndex = 2;
             this.result_B_chart.Text = "result_B_chart";
@@ -529,6 +538,28 @@
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "8 Bit-plane Slicing";
+            // 
+            // BitPlaneSlicing_numericUpDown
+            // 
+            this.BitPlaneSlicing_numericUpDown.Location = new System.Drawing.Point(8, 21);
+            this.BitPlaneSlicing_numericUpDown.Maximum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+            this.BitPlaneSlicing_numericUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.BitPlaneSlicing_numericUpDown.Name = "BitPlaneSlicing_numericUpDown";
+            this.BitPlaneSlicing_numericUpDown.Size = new System.Drawing.Size(120, 22);
+            this.BitPlaneSlicing_numericUpDown.TabIndex = 9;
+            this.BitPlaneSlicing_numericUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // BitPlaneSlicing_button
             // 
@@ -822,27 +853,251 @@
             this.KMeans_button.UseVisualStyleBackColor = true;
             this.KMeans_button.Click += new System.EventHandler(this.KMeans_button_Click);
             // 
-            // BitPlaneSlicing_numericUpDown
+            // menuStrip1
             // 
-            this.BitPlaneSlicing_numericUpDown.Location = new System.Drawing.Point(8, 21);
-            this.BitPlaneSlicing_numericUpDown.Maximum = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            this.BitPlaneSlicing_numericUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.BitPlaneSlicing_numericUpDown.Name = "BitPlaneSlicing_numericUpDown";
-            this.BitPlaneSlicing_numericUpDown.Size = new System.Drawing.Size(120, 22);
-            this.BitPlaneSlicing_numericUpDown.TabIndex = 9;
-            this.BitPlaneSlicing_numericUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.檔案FToolStripMenuItem,
+            this.編輯EToolStripMenuItem,
+            this.工具TToolStripMenuItem,
+            this.說明HToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1034, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 檔案FToolStripMenuItem
+            // 
+            this.檔案FToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.新增NToolStripMenuItem,
+            this.開啟OToolStripMenuItem,
+            this.toolStripSeparator,
+            this.儲存SToolStripMenuItem,
+            this.另存新檔AToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.列印PToolStripMenuItem,
+            this.預覽列印VToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.結束XToolStripMenuItem});
+            this.檔案FToolStripMenuItem.Name = "檔案FToolStripMenuItem";
+            this.檔案FToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.檔案FToolStripMenuItem.Text = "檔案(&F)";
+            // 
+            // 新增NToolStripMenuItem
+            // 
+            this.新增NToolStripMenuItem.Enabled = false;
+            this.新增NToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("新增NToolStripMenuItem.Image")));
+            this.新增NToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.新增NToolStripMenuItem.Name = "新增NToolStripMenuItem";
+            this.新增NToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
+            this.新增NToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.新增NToolStripMenuItem.Text = "新增(&N)";
+            // 
+            // 開啟OToolStripMenuItem
+            // 
+            this.開啟OToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("開啟OToolStripMenuItem.Image")));
+            this.開啟OToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.開啟OToolStripMenuItem.Name = "開啟OToolStripMenuItem";
+            this.開啟OToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.開啟OToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.開啟OToolStripMenuItem.Text = "開啟(&O)";
+            this.開啟OToolStripMenuItem.Click += new System.EventHandler(this.開啟OToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            this.toolStripSeparator.Size = new System.Drawing.Size(177, 6);
+            // 
+            // 儲存SToolStripMenuItem
+            // 
+            this.儲存SToolStripMenuItem.Enabled = false;
+            this.儲存SToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("儲存SToolStripMenuItem.Image")));
+            this.儲存SToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.儲存SToolStripMenuItem.Name = "儲存SToolStripMenuItem";
+            this.儲存SToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.儲存SToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.儲存SToolStripMenuItem.Text = "儲存(&S)";
+            this.儲存SToolStripMenuItem.Click += new System.EventHandler(this.儲存SToolStripMenuItem_Click);
+            // 
+            // 另存新檔AToolStripMenuItem
+            // 
+            this.另存新檔AToolStripMenuItem.Name = "另存新檔AToolStripMenuItem";
+            this.另存新檔AToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.另存新檔AToolStripMenuItem.Text = "另存新檔(&A)";
+            this.另存新檔AToolStripMenuItem.Click += new System.EventHandler(this.另存新檔AToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // 列印PToolStripMenuItem
+            // 
+            this.列印PToolStripMenuItem.Enabled = false;
+            this.列印PToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("列印PToolStripMenuItem.Image")));
+            this.列印PToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.列印PToolStripMenuItem.Name = "列印PToolStripMenuItem";
+            this.列印PToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.列印PToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.列印PToolStripMenuItem.Text = "列印(&P)";
+            // 
+            // 預覽列印VToolStripMenuItem
+            // 
+            this.預覽列印VToolStripMenuItem.Enabled = false;
+            this.預覽列印VToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("預覽列印VToolStripMenuItem.Image")));
+            this.預覽列印VToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.預覽列印VToolStripMenuItem.Name = "預覽列印VToolStripMenuItem";
+            this.預覽列印VToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.預覽列印VToolStripMenuItem.Text = "預覽列印(&V)";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            // 
+            // 結束XToolStripMenuItem
+            // 
+            this.結束XToolStripMenuItem.Enabled = false;
+            this.結束XToolStripMenuItem.Name = "結束XToolStripMenuItem";
+            this.結束XToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.結束XToolStripMenuItem.Text = "結束(&X)";
+            // 
+            // 編輯EToolStripMenuItem
+            // 
+            this.編輯EToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.復原UToolStripMenuItem,
+            this.取消復原RToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.剪下TToolStripMenuItem,
+            this.複製CToolStripMenuItem,
+            this.貼上PToolStripMenuItem,
+            this.toolStripSeparator4,
+            this.全選AToolStripMenuItem});
+            this.編輯EToolStripMenuItem.Enabled = false;
+            this.編輯EToolStripMenuItem.Name = "編輯EToolStripMenuItem";
+            this.編輯EToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.編輯EToolStripMenuItem.Text = "編輯(&E)";
+            // 
+            // 復原UToolStripMenuItem
+            // 
+            this.復原UToolStripMenuItem.Name = "復原UToolStripMenuItem";
+            this.復原UToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
+            this.復原UToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.復原UToolStripMenuItem.Text = "復原(&U)";
+            // 
+            // 取消復原RToolStripMenuItem
+            // 
+            this.取消復原RToolStripMenuItem.Name = "取消復原RToolStripMenuItem";
+            this.取消復原RToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
+            this.取消復原RToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.取消復原RToolStripMenuItem.Text = "取消復原(&R)";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            // 
+            // 剪下TToolStripMenuItem
+            // 
+            this.剪下TToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("剪下TToolStripMenuItem.Image")));
+            this.剪下TToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.剪下TToolStripMenuItem.Name = "剪下TToolStripMenuItem";
+            this.剪下TToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.剪下TToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.剪下TToolStripMenuItem.Text = "剪下(&T)";
+            // 
+            // 複製CToolStripMenuItem
+            // 
+            this.複製CToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("複製CToolStripMenuItem.Image")));
+            this.複製CToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.複製CToolStripMenuItem.Name = "複製CToolStripMenuItem";
+            this.複製CToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.複製CToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.複製CToolStripMenuItem.Text = "複製(&C)";
+            // 
+            // 貼上PToolStripMenuItem
+            // 
+            this.貼上PToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("貼上PToolStripMenuItem.Image")));
+            this.貼上PToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.貼上PToolStripMenuItem.Name = "貼上PToolStripMenuItem";
+            this.貼上PToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.貼上PToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.貼上PToolStripMenuItem.Text = "貼上(&P)";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(177, 6);
+            // 
+            // 全選AToolStripMenuItem
+            // 
+            this.全選AToolStripMenuItem.Name = "全選AToolStripMenuItem";
+            this.全選AToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.全選AToolStripMenuItem.Text = "全選(&A)";
+            // 
+            // 工具TToolStripMenuItem
+            // 
+            this.工具TToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.自訂CToolStripMenuItem,
+            this.選項OToolStripMenuItem});
+            this.工具TToolStripMenuItem.Enabled = false;
+            this.工具TToolStripMenuItem.Name = "工具TToolStripMenuItem";
+            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.工具TToolStripMenuItem.Text = "工具(&T)";
+            // 
+            // 自訂CToolStripMenuItem
+            // 
+            this.自訂CToolStripMenuItem.Name = "自訂CToolStripMenuItem";
+            this.自訂CToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.自訂CToolStripMenuItem.Text = "自訂(&C)";
+            // 
+            // 選項OToolStripMenuItem
+            // 
+            this.選項OToolStripMenuItem.Name = "選項OToolStripMenuItem";
+            this.選項OToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.選項OToolStripMenuItem.Text = "選項(&O)";
+            // 
+            // 說明HToolStripMenuItem
+            // 
+            this.說明HToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.內容CToolStripMenuItem,
+            this.索引IToolStripMenuItem,
+            this.搜尋SToolStripMenuItem,
+            this.toolStripSeparator5,
+            this.關於AToolStripMenuItem});
+            this.說明HToolStripMenuItem.Enabled = false;
+            this.說明HToolStripMenuItem.Name = "說明HToolStripMenuItem";
+            this.說明HToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.說明HToolStripMenuItem.Text = "說明(&H)";
+            // 
+            // 內容CToolStripMenuItem
+            // 
+            this.內容CToolStripMenuItem.Name = "內容CToolStripMenuItem";
+            this.內容CToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.內容CToolStripMenuItem.Text = "內容(&C)";
+            // 
+            // 索引IToolStripMenuItem
+            // 
+            this.索引IToolStripMenuItem.Name = "索引IToolStripMenuItem";
+            this.索引IToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.索引IToolStripMenuItem.Text = "索引(&I)";
+            // 
+            // 搜尋SToolStripMenuItem
+            // 
+            this.搜尋SToolStripMenuItem.Name = "搜尋SToolStripMenuItem";
+            this.搜尋SToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.搜尋SToolStripMenuItem.Text = "搜尋(&S)";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            // 
+            // 關於AToolStripMenuItem
+            // 
+            this.關於AToolStripMenuItem.Name = "關於AToolStripMenuItem";
+            this.關於AToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.關於AToolStripMenuItem.Text = "關於(&A)...";
             // 
             // Form1
             // 
@@ -851,10 +1106,12 @@
             this.ClientSize = new System.Drawing.Size(1034, 522);
             this.Controls.Add(this.main_splitContainer);
             this.Controls.Add(this.toolBar_panel);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.toolBar_panel.ResumeLayout(false);
+            this.toolBar_panel.PerformLayout();
             this.main_splitContainer.Panel1.ResumeLayout(false);
             this.main_splitContainer.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.main_splitContainer)).EndInit();
@@ -888,6 +1145,7 @@
             this.tabPage1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BitPlaneSlicing_numericUpDown)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -899,15 +1157,14 @@
             this.tabPage4.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.BitPlaneSlicing_numericUpDown)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button Openfile_button;
         private System.Windows.Forms.Button Grayscale_button;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Panel toolBar_panel;
         private System.Windows.Forms.SplitContainer main_splitContainer;
@@ -919,7 +1176,6 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button SaveFile_button;
         private System.Windows.Forms.Panel logMessage_panel;
         private System.Windows.Forms.Panel logTitle_panel;
         private System.Windows.Forms.Label logTitle_label;
@@ -963,6 +1219,37 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button BitPlaneSlicing_button;
         private System.Windows.Forms.NumericUpDown BitPlaneSlicing_numericUpDown;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 檔案FToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 新增NToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 開啟OToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
+        private System.Windows.Forms.ToolStripMenuItem 儲存SToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 另存新檔AToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem 列印PToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 預覽列印VToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem 結束XToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 編輯EToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 復原UToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 取消復原RToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem 剪下TToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 複製CToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 貼上PToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripMenuItem 全選AToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 工具TToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 自訂CToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 選項OToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 說明HToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 內容CToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 索引IToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 搜尋SToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripMenuItem 關於AToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 
